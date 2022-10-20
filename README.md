@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/maximaizrw/01-huddle-landing-page)
-- Live Site URL: [Github Page](https://maximaizrw.github.io/01-huddle-landing-page/)
+- Live Site URL: [Vercel](https://01-huddle-landing-page-one.vercel.app/)
 
 ## My process
 
