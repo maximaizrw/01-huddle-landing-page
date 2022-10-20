@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: hsl(192deg, 100%, 9%);
+  height: 100vh;
+}
+body p {
+  font-size: 18px;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+body .btn {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+.btn-nav {
+  color: hsl(192deg, 100%, 9%);
+  background: white;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.btn-nav:hover {
+  color: hsl(208deg, 11%, 55%);
+}
+
+.btn-pink {
+  color: white !important;
+  background-color: hsl(322deg, 100%, 66%);
+  padding: 0.7rem 3rem;
+}
+.btn-pink:hover {
+  background-color: hsl(322deg, 100%, 80%);
+}
+
+.bg {
+  background: url(/images/bg-hero-mobile.svg);
+  min-height: 100vh;
+}
+
+.hero {
+  margin-top: 5rem;
+}
+.hero p {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .bg {
+    background: url(/images/bg-hero-desktop.svg);
+  }
+  .btn-pink {
+    margin-left: 2rem;
+  }
+}
+.services {
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
+.services .card {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: none;
+  border-radius: 1rem;
+}
+.services .card .card-text {
+  color: hsl(208deg, 11%, 55%);
+}
+
+footer {
+  background-color: hsl(192deg, 100%, 9%);
+  color: hsl(193deg, 100%, 96%);
+  bottom: 0;
+}
+footer .ready {
+  position: relative;
+  top: -100px;
+}
+footer .ready .card {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: none;
+  border-radius: 0.9rem;
+}
+footer .ready .card .card-body {
+  color: black;
+}
+footer .ready .card-b {
+  width: 80%;
+}
+footer .ready .card-b .card-title-b {
+  font-size: 1rem;
+}
+footer .filter {
+  filter: brightness(0) invert(1);
+}
+footer .widget ul li a {
+  color: hsl(193deg, 100%, 96%);
+  text-decoration: none;
+}
+footer .widget ul li a:hover {
+  text-decoration: underline;
+}
+footer .widget ul li img {
+  border-right: 3rem;
+}
+footer .widget .links li {
+  margin-bottom: 10px;
+}
+footer .social .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin: 0 0.5rem;
+  border-radius: 50%;
+  border-style: solid;
+  text-decoration: none;
+  color: hsl(193deg, 100%, 96%);
+}
+footer .social .icon:hover {
+  color: hsl(322deg, 100%, 66%);
+}
+
+@media (min-width: 768px) {
+  footer .ready .card-b {
+    width: 60%;
+  }
+  footer .ready .card .card-title-b {
+    font-size: 2rem;
+  }
+}/*# sourceMappingURL=style.css.map */

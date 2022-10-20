@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+}
+body p {
+  font-size: 18px;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5 {
+  font-family: "Poppins", sans-serif;
+}/*# sourceMappingURL=common.css.map */
